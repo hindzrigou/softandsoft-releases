@@ -1,0 +1,72 @@
+{
+  "product": "SGD - Système de Gestion",
+  "publisher": "SoftAndSoft",
+  "manifest_version": "1.0.0",
+  "last_updated": "2026-09-23T15:00:00Z",
+  "release_notes_url": "https://github.com/hindzrigou/softandsoft-releases/blob/main/CHANGELOG.md",
+  "services": {
+    "api-gateway": {
+      "version": "0.0.1-SNAPSHOT",
+      "tag": "v0.0.1-SNAPSHOT",
+      "docker_image": "hind12349/softandsoft:api-gateway-v0.0.1-SNAPSHOT",
+      "released_at": "2026-09-23T15:00:00Z",
+      "criticality": "critical",
+      "changelog": "Version initiale de l'api-gateway",
+      "min_memory_mb": 256
+    },
+    "config-server": {
+      "version": "0.0.2-SNAPSHOT",
+      "tag": "v0.0.2-SNAPSHOT",
+      "docker_image": "hind12349/softandsoft:config-server-v0.0.2-SNAPSHOT",
+      "released_at": "2026-09-23T15:00:00Z",
+      "criticality": "critical",
+      "changelog": "Version initiale du config-server",
+      "min_memory_mb": 256
+    },
+    "eureka-server": {
+      "version": "0.0.1-SNAPSHOT",
+      "tag": "v0.0.1-SNAPSHOT",
+      "docker_image": "hind12349/softandsoft:eureka-server-v0.0.1-SNAPSHOT",
+      "released_at": "2026-09-23T15:00:00Z",
+      "criticality": "critical",
+      "changelog": "Version initiale du eureka-server",
+      "min_memory_mb": 256
+    },
+    "user-service": {
+      "version": "0.0.1-SNAPSHOT",
+      "tag": "v0.0.1-SNAPSHOT",
+      "docker_image": "hind12349/softandsoft:user-service-v0.0.1-SNAPSHOT",
+      "released_at": "2026-09-23T15:00:00Z",
+      "criticality": "normal",
+      "changelog": "Version initiale du user-service",
+      "min_memory_mb": 256
+    },
+    "stock-management-service": {
+      "version": "0.0.1-SNAPSHOT",
+      "tag": "v0.0.1-SNAPSHOT",
+      "docker_image": "hind12349/softandsoft:stock-management-service-v0.0.1-SNAPSHOT",
+      "released_at": "2026-09-23T15:00:00Z",
+      "criticality": "normal",
+      "changelog": "Version initiale du service stock",
+      "min_memory_mb": 256
+    },
+    "stock-management-core": {
+      "version": "0.0.1-SNAPSHOT",
+      "tag": "v0.0.1-SNAPSHOT",
+      "docker_image": "hind12349/softandsoft:stock-management-core-v0.0.1-SNAPSHOT",
+      "released_at": "2026-09-23T15:00:00Z",
+      "criticality": "normal",
+      "changelog": "Version initiale du service stock core",
+      "min_memory_mb": 256
+    },
+    "frontend-stock": {
+      "version": "0.0.0",
+      "tag": "v0.0.0",
+      "docker_image": "hind12349/softandsoft:frontend-stock-v0.0.0",
+      "released_at": "2026-09-23T15:00:00Z",
+      "criticality": "normal",
+      "changelog": "Version initiale du frontend stock",
+      "min_memory_mb": 256
+    }
+  }
+}
