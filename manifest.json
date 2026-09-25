@@ -2,7 +2,7 @@
   "product": "SGD - Système de Gestion",
   "publisher": "SoftAndSoft",
   "manifest_version": "1.0.0",
-  "last_updated": "2026-09-25T16:58:10Z",
+  "last_updated": "2026-09-25T17:16:22Z",
   "release_notes_url": "https://github.com/hindzrigou/softandsoft-releases/blob/main/CHANGELOG.md",
   "services": {
     "api-gateway": {
@@ -60,12 +60,12 @@
       "min_memory_mb": 256
     },
     "frontend-stock": {
-      "version": "0.0.1",
-      "tag": "v0.0.1",
-      "docker_image": "hind12349/softandsoft:frontend-stock-v0.0.1",
-      "released_at": "2026-09-25T16:58:10Z",
+      "version": "0.0.2",
+      "tag": "v0.0.2",
+      "docker_image": "hind12349/softandsoft:frontend-stock-v0.0.2",
+      "released_at": "2026-09-25T17:16:22Z",
       "criticality": "normal",
-      "changelog": "Build automatique CI/CD frontend - version 0.0.1",
+      "changelog": "Build automatique CI/CD frontend - version 0.0.2",
       "min_memory_mb": 256
     }
   }
