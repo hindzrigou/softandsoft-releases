@@ -2,7 +2,7 @@
   "product": "SGD - Système de Gestion",
   "publisher": "SoftAndSoft",
   "manifest_version": "1.0.0",
-  "last_updated": "2026-09-23T15:00:00Z",
+  "last_updated": "2026-09-25T12:26:12Z",
   "release_notes_url": "https://github.com/hindzrigou/softandsoft-releases/blob/main/CHANGELOG.md",
   "services": {
     "api-gateway": {
@@ -15,12 +15,12 @@
       "min_memory_mb": 256
     },
     "config-server": {
-      "version": "0.0.2-SNAPSHOT",
-      "tag": "v0.0.2-SNAPSHOT",
-      "docker_image": "hind12349/softandsoft:config-server-v0.0.2-SNAPSHOT",
-      "released_at": "2026-09-23T15:00:00Z",
+      "version": "0.0.3-SNAPSHOT",
+      "tag": "v0.0.3-SNAPSHOT",
+      "docker_image": "hind12349/softandsoft:config-server-v0.0.3-SNAPSHOT",
+      "released_at": "2026-09-25T12:26:12Z",
       "criticality": "critical",
-      "changelog": "Version initiale du config-server",
+      "changelog": "Build automatique CI/CD - version 0.0.3-SNAPSHOT",
       "min_memory_mb": 256
     },
     "eureka-server": {
